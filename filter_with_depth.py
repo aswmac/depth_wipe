@@ -67,7 +67,7 @@ def process_images(input_file='trimmed.png', filtered_file='trimmed_red.png', de
     img_np = np.array(img)
     print(input_file, "dim", img_np.shape)
     filtered_img_np_np = np.array(filtered_img_np)
-    print(red_file, "dim", filtered_img_np_np.shape)
+    print(filtered_file, "dim", filtered_img_np_np.shape)
     depth_np = np.array(depth_img)
     print(depth_file, "dim", depth_np.shape)
 
